@@ -1,0 +1,275 @@
+.project-outer-div {
+  /* width: 35rem; */
+  width: 90%;
+
+}
+
+.project-div {
+  /* width: 35rem; */
+  background: var(--clr-accent-100);
+  border-radius: 9px;
+  box-shadow: rgba(78, 186, 191, 0.4) 5px 5px, rgba(78, 186, 191, 0.3) 10px 10px, rgba(78, 186, 191, 0.2) 15px 15px, rgba(78, 186, 191, 0.1) 20px 20px, rgba(78, 186, 191, 0.05) 25px 25px;
+}
+
+/* background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%); */
+
+.project-heading {
+  color: var(--clr-accent-700);
+  /* font-weight: var(--fw-semi-bold); */
+  opacity: 1.5;
+  font-size: var(--fs-300);
+}
+
+.project-img {
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  max-width: 100%;
+  border-radius: 7px;
+  /* border: 2px solid var(--clr-accent-700); */
+}
+
+.project-figure {
+  overflow: hidden;
+  border-radius: 7px;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+.project-figure:hover {
+  box-shadow: rgba(78, 186, 191, 0.35) 0px 5px 15px;
+}
+
+.project-img:hover {
+  border-radius: 7px;
+  -webkit-transform: scale(1.15);
+  transform: scale(1.15);
+  box-shadow: rgba(78, 186, 191, 0.35) 0px 5px 15px;
+}
+
+.project-info {
+  color: var(--clr-info);
+  opacity: 0.6;
+  font-size: var(--fs-150);
+  text-align: justify;
+}
+
+.iconify-redirect-icon {
+  color: var(--clr-heading);
+}
+
+.iconify-redirect-icon:hover {
+  color: var(--clr-accent-700);
+}
+
+.built-with-icons {
+  width: 16px;
+  height: 16px;
+}
+
+.built-with-badge {
+  font-weight: var(--fw-bold);
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+  margin: 4px 2px;
+  border-radius: 7px;
+  padding: 5px 7px;
+  font-size: var(--fs-100);
+  color: rgba(255, 255, 255, 1.2);
+}
+
+.date-badge {
+  font-size: var(--fs-100);
+  color: rgba(255, 255, 255, 1.2);
+  font-weight: var(--fw-semi-bold);
+  background-color: rgba(78, 186, 191, 0.9);
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+  border-radius: 7px;
+  padding: 7px;
+  white-space: nowrap;
+  height: 28px;
+}
+
+.date-badge:hover {
+  background-color: rgba(78, 186, 191, 0.8);
+}
+
+
+.c-badge{
+  background-color: rgba(155, 22, 117, 0.8);
+  transition: background-color 0.3s ease;
+}
+.c-badge:hover{
+  background-color: rgba(155, 22, 117, 1);
+}
+
+.igraphics-badge {
+  background-color: rgba(31, 205, 25, 0.8);
+  transition: background-color 0.3s ease;
+}
+.igraphics-badge:hover {
+  background-color: rgba(31, 205, 25, 1);
+}
+
+.cplusplus-badge{
+  background-color: rgba(38, 147, 215, 0.8);
+  transition: background-color 0.3s ease;
+}
+.cplusplus-badge:hover{
+  background-color: rgba(38, 147, 215, 1);
+}
+
+.math-logic-badge {
+  background-color: rgba(200, 234, 65, 0.8);
+  transition: background-color 0.3s ease;
+}
+
+.math-logic-badge:hover {
+  background-color: rgba(200, 234, 65, 1);
+}
+
+.java-badge {
+  background-color: rgba(66, 162, 217, 0.8);
+  transition: background-color 0.3s ease;
+}
+
+.java-badge:hover {
+  background-color: rgba(66, 162, 217, 1);
+}
+
+.swing-badge {
+  background-color: rgba(199, 174, 32, 0.8);
+  transition: background-color 0.3s ease;
+}
+
+.swing-badge:hover {
+  background-color: rgba(199, 174, 32, 1);
+}
+
+.jframe-badge {
+  background-color: rgba(150, 45, 136, 0.8);
+  transition: background-color 0.3s ease;
+}
+
+.jframe-badge:hover {
+  background-color: rgba(150, 45, 136, 1);
+}
+
+.html-badge {
+  background-color: rgba(231, 80, 40, 0.8);
+}
+
+.html-badge:hover {
+  background-color: rgba(231, 80, 40, 1);
+}
+
+.css-badge {
+  background-color: rgba(42, 147, 201, 0.8);
+}
+
+.css-badge:hover {
+  background-color: rgba(42, 147, 201, 1);
+}
+
+.js-badge{
+  background-color: rgba(59, 146, 239, 0.8);
+  transition: background-color 0.3s ease;
+}
+.js-badge:hover {
+  background-color: rgba(59, 146, 239, 1);
+}
+
+.bootstrap-badge {
+  background-color: rgba(121, 82, 179, 0.8);
+}
+
+.bootstrap-badge:hover {
+  background-color: rgba(121, 82, 179, 1);
+}
+.php-badge {
+  background-color: rgba(11, 123, 164, 0.8);
+  transition: background-color 0.3s ease;
+}
+
+.php-badge:hover {
+  background-color: rgba(11, 123, 164, 1);
+}
+
+.mysql-badge {
+  background-color: rgba(11, 164, 128, 0.8);
+  transition: background-color 0.3s ease;
+}
+
+.mysql-badge:hover {
+  background-color: rgba(11, 164, 128, 1);
+}
+
+.python-badge {
+  background-color: rgba(63, 120, 168, 0.8);
+  transition: background-color 0.3s ease;
+}
+
+.python-badge:hover {
+  background-color: rgba(63, 120, 168, 1);
+}
+
+.feature-extraction-badge {
+  background-color: rgba(17, 179, 58, 0.8); 
+  transition: background-color 0.3s ease; 
+}
+
+.feature-extraction-badge:hover {
+  background-color: rgba(17, 179, 58, 1);
+}
+
+.mcl-badge {
+  background-color: rgba(111, 63, 183, 0.8); 
+  transition: background-color 0.3s ease; 
+}
+
+.mcl-badge:hover {
+  background-color: rgba(111, 63, 183, 1);
+}
+
+.nn-badge{
+  background-color: rgba(160, 5, 100, 0.8); 
+  transition: background-color 0.3s ease;
+}
+.nn-badge:hover{
+  background-color: rgba(160, 5, 100, 1); 
+}
+
+.hfd-badge{
+  background-color: rgba(186, 121, 8, 0.8); 
+  transition: background-color 0.3s ease;
+}
+.hfd-badge:hover{
+  background-color: rgba(186, 121, 8, 1); 
+}
+
+/* media query */
+@media (max-width: 1200px) {}
+
+@media (max-width: 993px) {
+  .project-outer-div {
+    width: 65%;
+  }
+}
+
+@media (max-width: 945px) {}
+
+@media (max-width: 780px) {
+  .project-outer-div {
+    width: 85%;
+  }
+}
+
+@media (max-width: 550px) {
+  .project-outer-div {
+    width: 85%;
+  }
+}
+
+@media (max-height: 820px) {
+  .project-outer-div {
+    width: 85%;
+  }
+}

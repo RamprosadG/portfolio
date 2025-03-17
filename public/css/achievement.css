@@ -1,0 +1,312 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import "global.css";
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.achievement {
+  width: 90%;
+  margin-top: 36px;
+  border-radius: 10px;
+  background-color: var(--clr-accent-300);
+  box-shadow: rgba(78, 186, 191, 0.4) 5px 5px, rgba(78, 186, 191, 0.3) 10px 10px, rgba(78, 186, 191, 0.2) 15px 15px, rgba(78, 186, 191, 0.1) 20px 20px, rgba(78, 186, 191, 0.05) 25px 25px;
+  padding: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.achievement-div-heading {
+  color: var(--clr-sub-heading);
+  margin: 10px 0;
+  font-size: var(--fs-350);
+  transition-duration: 0.3s;
+  margin-top: 0;
+  margin-left: 15px;
+}
+
+.achievement-div-heading-icon {
+  margin-right: 10px;
+}
+
+.achievement-div-sub-heading {
+  color: var(--clr-accent-700);
+  font-size: var(--fs-250);
+  font-weight: var(--fw-semi-bold);
+}
+
+.achievement-div-content>p {
+  font-size: var(--fs-200);
+  color: var(--clr-info);
+  opacity: 0.65;
+}
+
+.achievement-info-ul {
+  font-size: var(--fs-200);
+  color: var(--clr-info);
+  opacity: 0.65;
+}
+
+.project-redirect-link {
+  text-decoration: none;
+  font-weight: var(--fw-bold);
+  color: var(--clr-accent-700);
+}
+
+.project-redirect-link:hover {
+  color: var(--clr-accent-800);
+}
+
+.km-btn {
+  background-color: transparent;
+  border: 0ch;
+  color: var(--clr-accent-700);
+  font-weight: bolder;
+  transition: transform .2s ease-in-out;
+}
+
+.km-icon {
+  width: 33px !important;
+  height: 33px !important;
+}
+
+.btn-transform {
+  transform: rotate(-180deg);
+}
+
+.achievement-li {
+  position: relative;
+  margin-left: 15px;
+  padding-left: 25px;
+  padding-bottom: 15px;
+}
+
+.achievement-li:hover::before {
+  -webkit-animation: circle 1.2s infinite;
+  animation: circle 1.2s infinite;
+}
+
+.achievement-li:hover .achievement-div-sub-heading {
+  font-weight: var(--fw-semi-bold);
+  color: var(--clr-accent-800);
+}
+
+.achievement-li:first-of-type::before {
+  width: 14px;
+  height: 14px;
+  left: 0px;
+}
+
+.achievement-li:last-of-type {
+  padding-bottom: 3px;
+}
+
+.achievement-li:last-of-type::after {
+  border-radius: 1.5px;
+}
+
+.achievement-li::before,
+.achievement-li::after {
+  content: "";
+  display: block;
+  position: absolute;
+}
+
+.achievement-li::before {
+  width: 11px;
+  height: 11px;
+  border: 3px solid black;
+  background: var(--clr-accent-800);
+  border-radius: 50%;
+  left: 0.8px;
+  z-index: 1;
+}
+
+.achievement-li::after {
+  width: 3px;
+  height: 100%;
+  background: black;
+  left: 5px;
+  top: 0;
+}
+
+.achievement ul li span {
+  transition-duration: 0.3s;
+}
+
+
+.member-section {
+  margin-top: 10px; 
+}
+
+.member-heading {
+  font-weight: bold;
+  font-size: 1.2rem; 
+  margin-bottom: 5px; 
+  color: #0c7893;
+}
+
+.member-list-container {
+  position: relative;
+}
+
+.member-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.member-list li {
+  margin-bottom: 5px;
+  font-size: 1rem;
+  color: gray;
+  position: relative;
+  padding-right: 30px; /* Adjust space as needed for the icon */
+}
+
+.member-list li .linkedin-icon {
+  color: #FFFFFF;
+  font-size: 1rem;
+  position: absolute;
+  right: 0; /* Keep the icon at the right edge */
+  top: 50%;
+  transform: translateY(-50%);
+  text-decoration: none;
+}
+  
+/* pppppppppppppppppppp */
+.certificate-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Adjust gap between links */
+}
+
+.date-badge-u {
+  background-color:#0c7893; 
+  color: white; 
+  padding: 5px; 
+  border-radius: 10px; 
+  display: flex; 
+  align-items: center;
+}
+.date-badge-u:hover {
+  background-color: #0a5162; 
+  color: white; 
+  padding: 5px; 
+  border-radius: 10px; 
+  display: flex; 
+  align-items: center;
+}
+
+.certificate-link {
+  color: white; 
+  margin-left: 5px;
+}
+
+
+@-webkit-keyframes circle {
+  from {
+    box-shadow: 0 0 0 0px var(--clr-accent-800);
+  }
+
+  to {
+    box-shadow: 0 0 0 6px rgba(255, 255, 255, 0);
+  }
+}
+
+@keyframes circle {
+  from {
+    box-shadow: 0 0 0 0px var(--clr-accent-800);
+  }
+
+  to {
+    box-shadow: 0 0 0 6px rgba(255, 255, 255, 0);
+  }
+}
+
+/* media query */
+@media (max-width: 1200px) {}
+
+@media (max-width: 993px) {
+  .achievement {
+    width: 65%;
+  }
+}
+
+@media (max-width: 945px) {}
+
+@media (max-width: 780px) {
+  .achievement {
+    width: 85%;
+  }
+}
+
+@media (max-width: 550px) {
+  .achievement {
+    width: 90%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .achievement-div-heading {
+    font-size: var(--fs-300);
+  }
+
+  .achievement-div-sub-heading {
+    font-size: var(--fs-200)
+  }
+
+  .achievement-div-content>p {
+    font-size: var(--fs-150);
+  }
+
+  .achievement-info-ul {
+    font-size: var(--fs-150);
+  }
+
+  .km-icon {
+    width: 25px !important;
+    height: 25px !important;
+  }
+}
+
+@media (max-height: 820px) {
+  .achievement {
+    width: 90%;
+  }
+}
+
+@media (min-width: 1145px) {
+  .achievement {
+    width: 511px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .member-list li {
+    padding-right: 30px; /* Ensure enough space for the icon */
+  }
+
+  .member-list li .linkedin-icon {
+    right: 10px; /* Adjust right position if needed for smaller screens */
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+
+/* Adjustments for smaller screens */
+@media (max-width: 767px) {
+  .certificate-links {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .date-badge-u {
+    margin-left: 0; /* Remove left margin on small screens */
+    display: flex; /* Ensure proper spacing */
+    align-items: center;
+  }
+}
