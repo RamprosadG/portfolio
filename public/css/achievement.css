@@ -7,7 +7,7 @@ ul {
 }
 
 .achievement {
-  width: 90%;
+  width: 100%;
   margin-top: 36px;
   border-radius: 10px;
   background-color: var(--clr-accent-300);
@@ -230,7 +230,7 @@ ul {
 
 @media (max-width: 993px) {
   .achievement {
-    width: 65%;
+    width: 90%;
   }
 }
 
@@ -238,7 +238,7 @@ ul {
 
 @media (max-width: 780px) {
   .achievement {
-    width: 85%;
+    width: 90%;
   }
 }
 
@@ -279,7 +279,7 @@ ul {
 
 @media (min-width: 1145px) {
   .achievement {
-    width: 511px;
+    width: 90%;
   }
 }
 
